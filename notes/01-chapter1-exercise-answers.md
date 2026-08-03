@@ -1,4 +1,18 @@
+---
+title: 第一章习题参考答案
+status: learning
+tags:
+  - note
+  - exercise
+  - agent
+created: 2026-08-02
+updated: 2026-08-02
+source: "[[feishu_doc_fetch]]"
+---
+
 # 第一章习题参考答案
+
+返回：[[notes/README|知识笔记]] · 相关：[[notes/01-agent-workflow-llm-app]]
 
 说明：以下不是唯一标准答案，而是一份偏工程实践视角的参考答案。重点是训练你判断“什么算 Agent、什么时候用 Workflow、如何定义环境、如何设计反馈循环”。
 
@@ -431,4 +445,3 @@ Thought: 选择最符合用户偏好的备选方案并解释原因。
 3. 判断 Agent 设计中哪些部分需要目标、工具、记忆、反馈、停止条件和评估。
 
 如果你能用这些角度分析一个具体项目，就已经开始从“会和 AI 对话”进入“会设计 AI 系统”了。
-

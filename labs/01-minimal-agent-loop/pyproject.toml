@@ -1,0 +1,17 @@
+[project]
+name = "minimal-agent-loop"
+version = "0.1.0"
+description = "A dependency-free learning project for the Thought-Action-Observation loop"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+minimal-agent = "minimal_agent.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

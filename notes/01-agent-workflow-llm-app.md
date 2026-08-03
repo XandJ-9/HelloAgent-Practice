@@ -1,4 +1,19 @@
+---
+title: Agent、Workflow、LLM App 的区别
+status: learning
+tags:
+  - note
+  - agent
+  - workflow
+  - llm-app
+created: 2026-08-02
+updated: 2026-08-02
+source: "[[feishu_doc_fetch]]"
+---
+
 # Agent、Workflow、LLM App 的区别
+
+返回：[[notes/README|知识笔记]] · 术语：[[GLOSSARY|核心术语表]]
 
 学习目标：理解三类 AI 应用形态的边界，知道什么时候该用简单 LLM App，什么时候该做 Workflow，什么时候才需要 Agent。
 
@@ -247,4 +262,3 @@ LLM App 是“模型能力组件”，Workflow 是“固定流程自动化”，
 - 是否需要根据环境反馈动态决定下一步。
 
 第一周学习时不要急着写复杂 Agent。先能清楚区分这三类系统，你后面学 ReAct、Plan-and-Solve、Reflection、RAG、MCP 时会轻松很多。
-

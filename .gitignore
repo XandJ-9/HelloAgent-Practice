@@ -1,0 +1,16 @@
+# uv / Python virtual environments
+.venv/
+.obsidian/
+# Python caches and build outputs
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local secrets
+.env
+.env.*
+
+# Operating system files
+.DS_Store
